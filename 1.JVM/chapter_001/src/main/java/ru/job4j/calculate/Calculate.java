@@ -5,10 +5,10 @@ package ru.job4j.calculate;
  *@since 27.07.2018
 */
 public class Calculate {
-	/**
-     * Метод main 
-     *@param args - args. выводит строчку приветствия
-    */
+/**
+ * Метод main 
+ *@param args - args. выводит строчку приветствия
+*/
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		// Ну вот, пришло время и мне поприветствовать этот мир.
