@@ -1,5 +1,5 @@
 /**
- *Package for calculate task.
+ *Package for calculator task.
  *
  *Class Calculator решения задачи части 001 урок 3.1.
  *@author Alexey Yachkovsky (mailto:yachkovsiy@yahoo.com)

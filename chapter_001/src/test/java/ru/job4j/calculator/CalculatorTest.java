@@ -4,8 +4,18 @@ import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
+/**
+ *Test
+ *
+ *@author Alexey Yachkovsky (mailto:yachkovsiy@yahoo.com)
+ *version $Id$
+ *@since 0.1
+ * Ручное тестирование простых арифметических вычислений
+ */
 public class CalculatorTest {
+    /**
+     * add - сложение
+     */
     @Test
     public void whenAdd1Plus1Then2() {
         Calculator calc = new Calculator();
@@ -14,6 +24,9 @@ public class CalculatorTest {
         double expected = 2D;
         assertThat(result, is(expected));
     }
+    /**
+     * subtract - вычитание
+     */
     @Test
     public void whenSubtract2On1Then1() {
         Calculator calc = new Calculator();
@@ -22,6 +35,9 @@ public class CalculatorTest {
         double expected = 1D;
         assertThat(result, is(expected));
     }
+    /**
+     *div - деление
+     */
     @Test
     public void whenDiv2On2Then1() {
         Calculator calc = new Calculator();
@@ -30,6 +46,9 @@ public class CalculatorTest {
         double expected = 1D;
         assertThat(result, is(expected));
     }
+    /**
+     *div - умножение
+     */
     @Test
     public void whenMultiple2On2Then4() {
         Calculator calc = new Calculator();
